@@ -77,10 +77,19 @@ jupyter notebook
 
 use a browser (i am using firefox, chrome works great also, not sure if IE does or any others...) to navigate to provided URL
 
-you will get a web index of the directory you started the notebook from. In the screenshot below I navigate to the cas_python direcotry and create a python3 notebook (see selection of what kernel to use in top right)
+you will get a web index of the directory you started the notebook from. In the screenshot below I navigate to the cas_python directory and create a python3 notebook (see selection of what kernel to use in top right)
 
 ![new_python](screenshots/start_python3.png?raw=true "new python notebook")
 
-i have build a starting python notebook called python_ds.ipynb
+i have build a starting python notebook called cas_python/python_ds.ipynb
 
 ![import_iris](screenshots/python_import.png?raw=true "get data in python")
+
+## R
+
+instead of selecting a new python3 notebook I started one using the R kernel and imported the dataset in ian_r/ian_r.ipynb
+
+NOTE: i dont know R well enough to not hard-code the file path (in python using relative paths and os.join i can ensure cross platform and user agnostic file path reliability)
+
+![new_R](screenshots/r_notebook.png?raw=true "new R notebook")
+
