@@ -60,10 +60,27 @@ source activate ds_python
 ```
 ![build_env](screenshots/activate_env.png?raw=true "build new env")
 
-## 3. Behold the glorious jupyter notebook! 
+NOTE: to get out of the ds_python environment simply execute 
+```
+source deactivate
+```
+
+## 4. Behold the glorious jupyter notebook! 
+navigate to the data_discussions_r_py directory and execute the following
+NOTE: make usre you are in the ds_python environment 
 ```
 jupyter notebook
 ```
+![start_nb](screenshots/start_notebook.png?raw=true "start jupyter notebook")
 
+## python
 
+use a browser (i am using firefox, chrome works great also, not sure if IE does or any others...) to navigate to provided URL
 
+you will get a web index of the directory you started the notebook from. In the screenshot below I navigate to the cas_python direcotry and create a python3 notebook (see selection of what kernel to use in top right)
+
+![new_python](screenshots/start_python3.png?raw=true "new python notebook")
+
+i have build a starting python notebook called python_ds.ipynb
+
+![import_iris](screenshots/python_import.png?raw=true "get data in python")
